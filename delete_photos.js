@@ -2,13 +2,14 @@
 // Put a number value, like this
 // const maxImageCount = 5896
 const maxImageCount = "ALL_PHOTOS";
+const DELETE_LOCAL_NAME = "삭제" // "Delete"
 
 // Selector for Images and buttons
 const ELEMENT_SELECTORS = {
     checkboxClass: '.ckGgle',
     languageAgnosticDeleteButton: 'div[data-delete-origin] button',
-    deleteButton: 'button[aria-label="Delete"]',
-    confirmationButton: '#yDmH0d > div.llhEMd.iWO5td > div > div.g3VIld.V639qd.bvQPzd.oEOLpc.Up8vH.J9Nfi.A9Uzve.iWO5td > div.XfpsVe.J9fJmf > button.VfPpkd-LgbsSe.VfPpkd-LgbsSe-OWXEXe-k8QpJ.nCP5yc.kHssdc.HvOprf'
+    deleteButton: `button[aria-label="${DELETE_LOCAL_NAME}"]`,
+    confirmationButton: 'button[data-id="EBS5u"]'
 }
 
 // Time Configuration (in milliseconds)
